@@ -1,0 +1,215 @@
+body{
+    background-color: black;
+}
+
+.div-container{
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+    margin-left: 20px;
+    padding: 5rem;
+    width: 70px;
+    aspect-ratio: 2/2;
+    background-color: rgb(223, 48, 48);
+    border-radius: 60%;
+    position: absolute;
+}
+
+.eyesbrown{
+    display:flex;
+    position: absolute;
+    flex-flow: nowrap;
+    height:100%;
+    width:100%; 
+}
+
+.eyesbrown1{
+    background-color: black;
+    margin-left: 20px;
+    height: 10px;
+    width: 50px;
+    
+}
+
+.eyesbrown2{
+    background-color: black;
+    margin-left: 60px;
+    height: 10px;
+    width: 50px; 
+}
+
+.eyes{
+    display:flex;
+    position: absolute;
+    flex-flow: nowrap;
+    height:100%;
+    width:100%; 
+}
+
+.eyes1{
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 35px;
+
+}
+
+.eyes2{
+    background-color: whitesmoke;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 35px;
+}
+
+.mouth{
+  position: absolute;
+  margin-top: 80px;
+  width: 100px;
+  height: 20px;
+  background-color: whitesmoke;
+}
+
+.pupil{
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30%;
+    height: 10px;
+    width: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    gap: 20px
+}
+.start {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(32, 27, 27);
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.pause {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(92, 35, 35);
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.restart {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(233, 18, 18);
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.start:hover {
+    background-color: aqua;
+    letter-spacing: 5px;
+    transition: all 250ms linear;
+
+}
+
+.pause:hover {
+    background-color: aqua;
+    letter-spacing: 5px;
+    transition: all 250ms linear;
+
+}
+
+.restart:hover {
+    background-color: aqua;
+    letter-spacing: 5px;
+    transition: all 250ms linear;
+
+}
+
+.myh4{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0;
+ 
+}
+
+.secretbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secretb{
+    font-size:18px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  display:inline-block;
+  text-align:center;
+  width:200px;
+  cursor: pointer;
+  font-weight:bolder;
+  opacity:0.5;
+  padding:14px 0px;
+  border:3px solid green;
+  border-radius:50%;
+  position:relative;
+  box-shadow: 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  visibility: hidden
+}
+
+#secretb:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+    opacity:1;
+    
+}
+ 
+h2{
+    color: whitesmoke;
+    font-family: Impact, Charcoal, sans-serif;
+font-size: 21px;
+letter-spacing: 2px;
+word-spacing: 5.2px;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
